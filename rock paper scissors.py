@@ -1,5 +1,5 @@
 import random
-while True: # обратите внимание на эту строку кода
+while True:
     user_action = input("Сделайте выбор — камень, ножницы или бумага: ")
     possible_actions = ["камень", "бумага", "ножницы"]
     computer_action = random.choice(possible_actions)
